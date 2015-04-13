@@ -1,0 +1,26 @@
+site:
+    title: SJTU-YJ校友会
+    subtitle: 洋泾中学校友会
+    logo: -/images/banner.jpg
+    limit: 10
+    theme: theme
+    disqus: 
+    root: /blog
+
+authors:
+    gaocegege:
+        name: 高策
+        intro: 软件学院，12级校友
+        avatar: -/images/author/logo.png
+
+build:
+    port: 8888
+    copy:
+        # 构建时将会复制以下目录/文件到 public 目录
+        - theme/css
+        - theme/js
+        - source/images
+    publish: |
+        # 执行 ink publish 命令将会执行以下脚本
+        git checkout gh-pages
+        git 
