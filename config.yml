@@ -4,14 +4,18 @@ site:
     logo: -/images/banner.jpg
     limit: 10
     theme: theme
-    disqus: 
     root: /blog
 
 authors:
     gaocegege:
         name: 高策
-        intro: 软件学院，12级校友
-        avatar: -/images/author/logo.png
+        intro: 软件学院
+        avatar: -/images/author/gaoce.png
+
+    zhouzhongyi:
+        name: 周中一
+        intro: 机动学院
+        avatar: -/images/author/zhouzhongyi.png 
 
 build:
     port: 8888
